@@ -1,0 +1,35 @@
+body {
+  font-family: "Winky Sans", sans-serif !important;
+}
+
+#top-container {
+  background: #d7f5dc;
+}
+
+.Hero-Section .hero-text h2 {
+  font-size: 50px;
+}
+
+.Hero-Section .hero-text p {
+  font-size: 20px;
+}
+
+.Hero-Section .hero-img img {
+  width: 684px;
+  height: 564px;
+}
+
+.Hero-Section .hero-btn {
+  width: 175px;
+  height: 70px;
+  background-color: #20B15A;
+}
+
+.Hero-Section .hero-btn:hover {
+  background-color: #27a55a;
+}
+
+#WWD-icon {
+  background-color: yellow;
+  color: green;
+}
