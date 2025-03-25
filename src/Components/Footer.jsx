@@ -39,7 +39,7 @@ export default function Footer() {
             <h5 className="fw-bold">Quick Links</h5>
             <ul className="list-unstyled">
               <li><a href="#" className="text-dark text-decoration-none">Our Services</a></li>
-              <li><a href="#" className="text-dark text-decoration-none">Portfolio</a></li>
+              <li><Link to="#" className="text-dark text-decoration-none">Portfolio</Link></li>
               <li><a href="#" className="text-dark text-decoration-none">About Us</a></li>
               <li><a href="#" className="text-dark text-decoration-none">Contact Us</a></li>
             </ul>

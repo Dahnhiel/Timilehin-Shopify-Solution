@@ -6,6 +6,7 @@ import {
   faTachometerAlt,
   faPalette,
   faHeadset,
+  faCogs,
 } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
@@ -197,6 +198,23 @@ const Services = () => {
                 <h5 className="card-title">24x7x365 Critical Site Support on Social Media</h5>
                 <p className="card-text">
                   Our 24x7x365 Critical Site Support on Social Media offers continuous monitoring and rapid response to critical issues, guaranteeing the stability and reliability of your online presence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Content Management */}
+        <div className="col-lg-4 col-md-6 col-12 mb-4">
+          <div className="card h-100 service-card">
+            <div className="card-body d-flex align-items-center">
+              <div className="icon-card bg-primary text-white me-3">
+                <FontAwesomeIcon icon={faCogs} size="2x" />
+              </div>
+              <div>
+                <h5 className="card-title">Content Management</h5>
+                <p className="card-text">
+                  Content drives all digital marketing element and great content added to good design can drive significant sales and engagements.
                 </p>
               </div>
             </div>
