@@ -2,7 +2,7 @@ import HeroVideo from "../assets/hero-vid.mp4";
 
 const Hero = () => {
   return (
-    <div className="container-fluid min-vh-100 p-0 position-relative" id="top-container">
+    <div className="container-fluid min-vh-100 p-0 position-relative d-flex align-items-center justify-content-center" id="top-container">
       {/* Full-width hero video */}
       <div className="hero-video-container position-absolute w-100 h-100 top-0 start-0">
         <video autoPlay muted loop className="w-100 h-100 object-fit-cover">
@@ -12,11 +12,11 @@ const Hero = () => {
         <div className="position-absolute w-100 h-100 top-0 start-0 bg-dark opacity-50"></div>
       </div>
 
-      <div className="container p-3 position-relative">
-        <section className="Hero-Section">
-          <div className="row align-items-center" id="hero-container">
+      <div className="container position-relative">
+        <section className="Hero-Section d-flex justify-content-center align-items-center text-center">
+          <div className="row w-100 justify-content-center">
             {/* Hero Text Section */}
-            <div className="col-lg-6 col-md-12 text-center text-lg-start">
+            <div className="col-lg-8 col-md-10 d-flex flex-column align-items-center justify-content-center text-center bg-danger p-4 rounded">
               <h2 className="fw-bold text-white">
                 Increase Your Customers Loyalty <br /> and Satisfaction
               </h2>
@@ -27,9 +27,6 @@ const Hero = () => {
                 Get Started
               </button>
             </div>
-
-            {/* Removed Hero Image Section and kept column for spacing */}
-            <div className="col-lg-6 col-md-12"></div>
           </div>
         </section>
       </div>
